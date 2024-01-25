@@ -4,6 +4,12 @@ import operaciones.Operaciones;
 
 public class Calculadora{
     public static void main(String[] args) {   
+    	/**
+         * El main en el que se invocan los metodos.
+         *
+         * @author Ane Goikuria
+         * @version 23.9.2005
+         */
         int resultado = 0;
         String operacion = "";
         int[] operandos = new int [2];
@@ -31,7 +37,7 @@ public class Calculadora{
                 resultado = operaciones.resto(operandos[0], operandos[1]);
                 System.out.println ("Resultado: " + resultado);
             } else {
-                System.out.println ("Operación no válida");
+                System.out.println ("Operaciï¿½n no vï¿½lida");
             }
         }   while (menu.repetir());
     }

@@ -3,6 +3,13 @@ import java.util.Scanner;
 public class Menu {
     private static Scanner teclado = new Scanner(System.in);
     
+    /**
+     * El menu de la calculadora, en el que hay metodos que usa el main.
+     *
+     * @author Ane Goikuria
+     * @version 23.9.2005
+     */
+    
     public int[] pedirNumeros(){
         int[] ret = new int[2];
         System.out.print ("Operando 1: ");
@@ -28,7 +35,7 @@ public class Menu {
         boolean ret = false;
         String respuesta;
         do {
-            System.out.print ("¿Desea continuar trabajando con la calculadora? [s / n]");
+            System.out.print ("ï¿½Desea continuar trabajando con la calculadora? [s / n]");
             respuesta = teclado.next();
         } while (!((respuesta.equalsIgnoreCase("s")) || (respuesta.equalsIgnoreCase("n"))
                     ));
