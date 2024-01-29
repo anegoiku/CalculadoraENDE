@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-01-29T08:27:42.598845200Z</date>
+  <millis>1706516862598</millis>
+  <nanos>845200</nanos>
+  <sequence>0</sequence>
+  <logger>Nombre del logger</logger>
+  <level>FINE</level>
+  <class>principal.Calculadora</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Suma realizada correctamente.</message>
+</record>
+<record>
+  <date>2024-01-29T08:28:03.540448Z</date>
+  <millis>1706516883540</millis>
+  <nanos>448000</nanos>
+  <sequence>1</sequence>
+  <logger>Nombre del logger</logger>
+  <level>WARNING</level>
+  <class>principal.Calculadora</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Intento de dividir por cero</message>
+</record>
