@@ -29,6 +29,7 @@ public class Calculadora {
 		Handler consoleHandler =new ConsoleHandler();
 		Handler fileHandler=null;
 		LOGGER.addHandler(consoleHandler);
+		consoleHandler.setLevel(Level.WARNING);
 		
 		try {
 			fileHandler=new FileHandler("./logs/ficheroLog.log", true);

@@ -52,7 +52,7 @@ public class Operaciones{
 	    * Constructor: 
 	    * @param valor1: el numero que vamos a dividir
 	    * @param valor2: el numero con el que vamos a dividir el valor 1
-	    * @return resultado: el resto de la division que hemos echo
+	    * @return resultado: el resto de la division que hemos hecho
 	    */
     public int resto (int valor1, int valor2){
         int numero;
